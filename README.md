@@ -35,6 +35,10 @@ In order to schedule this application to run everyday (or on any custom schedule
 
 6. Now go to the 'Triggers' tab and press 'New...'. In this dialog, you can set how often you want this application to run. One important thing to note is that the application cannot run if your computer is asleep or shut down. I suggest setting a daily trigger during a time when your computer is normally turned on.
 
+7. Go to the 'Settings' tab and make sure `Stop the task if it runs longer than` is enabled and set to 1 hour. Also make sure the option `If the running task does not end when requested, force it to stop` is enabled.
+
+8. You are finished, you can press OK and close Task Scheduler.
+
 
 ## Manually Running Application
 In order to manually run the application, open the Amazon-Price-Tracker folder in CMD or terminal and type `python Scraper.py`
